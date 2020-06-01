@@ -1,4 +1,4 @@
-uri = URI::HTTPS.build(:host => "www.whatsappapi.in", :port => 80) 
+uri = URI::HTTPS.build(:host => "www.gogossip.live", :port => 80) 
 uri.path = URI.escape("/api") 
 client = Net::HTTP.new("www.gogossip.live", "80") 
 req = Net::HTTP::Post.new(uri.request_uri, {}) 
